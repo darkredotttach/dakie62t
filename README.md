@@ -1,4 +1,6 @@
 ## ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/beautyeye_logo_h.png)
+:us: [>> Click here to "README.md" with English!](https://github.com/JackJiang2011/beautyeye/blob/master/README_en.md)
+
 :bulb: BeautyEye工程自2015-01-30日起因众所周知的原因已从 [Google Code](https://code.google.com/p/beautyeye/) 迁移至此。
 
 BeautyEye是一款Java Swing跨平台外观（look and feel）实现；<br>
@@ -13,27 +15,25 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 **GitHub.com**
 
 * 代码托管：  https://github.com/JackJiang2011/beautyeye 
-* 项目文档：  [简明开发者指南](http://cngeeker.com/forum.php?mod=viewthread&tid=26&extra=page%3D1)
+* 项目文档：  [简明开发者指南](http://openmob.net/forum.php?mod=viewthread&tid=26&extra=page%3D1)
 
 **OsChina.net**
 
 * 代码托管：  http://git.oschina.net/jackjiang/beautyeye 
-* 项目文档：  [简明开发者指南](http://cngeeker.com/forum.php?mod=viewthread&tid=26&extra=page%3D1)
+* 项目文档：  [简明开发者指南](http://openmob.net/forum.php?mod=viewthread&tid=26&extra=page%3D1)
 
 ## Latest Release
-#### :page_facing_up: v3.6 更新说明
- 发布于：`2015-02-02 17：31`<br>
- 1、优化了窗体默认icon的样式；<br>
- 2、优化了JList的选中样式；<br>
- 3、JDK 7最新版（java 1.7_u75兼容性测试通过）；<br>
- 4、JDK 8最新版（java 1.8_u31兼容性测试通过）。<br>
+#### :page_facing_up: v3.7 更新说明
+ 发布于：`2015-11-13 17：22`<br>
+ 1、解决了JPopupMenu中显示的文本组件无法编辑的问题；<br>
+ 2、解决了JFormattedTextField没有边框等UI效果问题。<br>
 
-> BeautyEye 起于2012年05月份，发布于2012年09月11日，最近一次版本发布是：2015年02月02日。 [点击查看历史版本更新说明](http://cngeeker.com/forum.php?mod=viewthread&tid=25&extra=page%3D1)
+> BeautyEye 起于2012年05月份，发布于2012年09月11日，最近一次版本发布是：2015年11月13日。 [点击查看历史版本更新说明](http://openmob.net/forum.php?mod=viewthread&tid=25&extra=page%3D1)
 
 ## Compatibility
 BeautyEye 可运行于java 1.5、1.6、1.7以及1.8之上，但推荐至少应运行在[java1.6.0_12或更新的版本](http://www.java.com/zh_CN/download/) <br>([为何java1.6.0_10或u11版不行？](http://cngeeker.com/forum.php?mod=viewthread&tid=23&extra=page%3D1))，因为这些版本将能带来窗口透明特性，更重要的是Swing的性能提升。
 
-另附：[BeautyEye兼容性测试结果](http://cngeeker.com/forum.php?mod=viewthread&tid=24&extra=page%3D1).
+另附：[BeautyEye兼容性测试结果](http://openmob.net/forum.php?mod=viewthread&tid=24&extra=page%3D1).
 
 ## Feature
 * 跨平台；
@@ -48,7 +48,7 @@ BeautyEye 可运行于java 1.5、1.6、1.7以及1.8之上，但推荐至少应�
 * :paperclip: [点击下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo2/SwingSets3(BeautyEyeLNFDemo).jar) <font color="#FF6600"> \[推荐:thumbsup:\]</font>
 
 ## Download
-:paperclip: 正式版.zip包：[点击下载](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip)（内含demo、api文档、核心分发jar包等）.
+:paperclip: 正式版.zip包：[点击下载](https://github.com/JackJiang2011/beautyeye/archive/v3.7.zip)（内含demo、api文档、核心分发jar包等）.
 
 ## Development Guide
 #### :triangular_flag_on_post: 第一步：引入*`beautyeye_lnf.jar`*包
@@ -72,7 +72,7 @@ public static void main(String[] args)
 }
 ```
 
-:green_book: 详细开发者指南请查看：[BeautyEye L&F简明开发者指南](http://cngeeker.com/forum.php?mod=viewthread&tid=26&extra=page%3D1).
+:green_book: 详细开发者指南请查看：[BeautyEye L&F简明开发者指南](http://openmob.net/forum.php?mod=viewthread&tid=26&extra=page%3D1).
 
 ## License
 你可永久免费且自由地使用BeautyEye外观(look and feel)，如：用于研究、学习、甚至商业用途，但禁止在超越License约束内容的情况下用于商业用途等，请尊重知识产权。
@@ -91,10 +91,10 @@ public static void main(String[] args)
 > <b>实践经验：</b>多年的软件开发、项目管理、团队管理以及创业公司操盘经历，在软件开发体系和团队建设、项目开发和管理、中大型企业应用、移动互联网应用的持续开发/实施/集成/运维和信息化建设等方面拥有较丰富的实践经验，领域知识涉及传统企业桌面应用、企业分布式互联网应用、新一代移动互联网和智能穿戴应用等。
 
 ## Preview
-#### :triangular_flag_on_post: Part 1/2：[点击查看清晰原图](http://cngeeker.com/data/attachment/forum/201508/13/230115jnmlpzv10122llr4.png)
+#### :triangular_flag_on_post: Part 1/2：[点击查看清晰原图](http://openmob.net/data/attachment/forum/201508/13/230115jnmlpzv10122llr4.png)
 ![](http://cngeeker.com/data/attachment/forum/201508/13/230115jnmlpzv10122llr4.png)
 
-#### :triangular_flag_on_post: Part 2/2：[点击查看清晰原图](http://cngeeker.com/data/attachment/forum/201508/13/230117twsq64zqnxzf6nw1.png)
+#### :triangular_flag_on_post: Part 2/2：[点击查看清晰原图](http://openmob.net/data/attachment/forum/201508/13/230117twsq64zqnxzf6nw1.png)
 ![](http://cngeeker.com/data/attachment/forum/201508/13/230117twsq64zqnxzf6nw1.png)
 
 ## More Screenshots
@@ -114,8 +114,8 @@ public static void main(String[] args)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch1_beautyeye.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch2_beautyeye.png)
 
-## 讨论学习专区
-:notebook_with_decorative_cover: [更多内容点击进入](http://cngeeker.com/forum.php?mod=forumdisplay&fid=86&page=1)
+## 讨论学习
+:notebook_with_decorative_cover: [更多内容点击进入](http://openmob.net/forum.php?mod=forumdisplay&fid=86&page=1)
 
 ## 作者的其它工程
 * **DroidUIBuilder**：一款开源Android GUI设计工具（已于2012年底停止开发），[:octocat: 点击进入](https://github.com/JackJiang2011/DroidUIBuilder)。<br>
