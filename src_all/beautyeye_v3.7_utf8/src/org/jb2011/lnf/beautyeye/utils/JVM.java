@@ -59,6 +59,12 @@ public final static int JDK1_7 = 30;
 	/** The Constant JDK1_9. */
 	public final static int JDK1_9 = 32;
 
+    /** The Constant JDK10 */ 
+    public final static int JDK10 = 33;
+
+     /** The Constant JDK11 */ 
+    public final static int JDK11 = 34;
+
 	/** The current. */
 	private static JVM current;
 	static {
@@ -92,7 +98,13 @@ public final static int JDK1_7 = 30;
 	 * @param p_JavaVersion the p_ java version
 	 */
 	public JVM(String p_JavaVersion) {
-		if (p_JavaVersion.startsWith("1.9.")) {
+        if (p_JavaVersion.startsWith("11")) {
+			jdkVersion = JDK11;
+		} 
+        else if (p_JavaVersion.startsWith("10")) {
+			jdkVersion = JDK10;
+		} 
+		else if (p_JavaVersion.startsWith("1.9.")) {
 			jdkVersion = JDK1_9;
 		} 
 		else if (p_JavaVersion.startsWith("1.8.")) {
